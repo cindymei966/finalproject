@@ -4,6 +4,6 @@ data_w_africa = data_pd1.replace ("Kenya", "Africa East").replace ("Tanzania",
     "Africa East").replace ("Ethiopia", "Africa East").replace ("Zambia", "Africa East").replace ("Ghana",
     "Africa West").replace("Nigeria", "Africa West").replace ("Sierra Leone", "Africa West").replace ("Somaliland region", 
                                          "Somalia").replace ("North Cyprus", "Cyprus")
-data_w_arab = data_w_africa.replace ("Saudi Arabia", "Arab countries").replace ("Egypt", 
+data_pd_2 = data_w_africa.replace ("Saudi Arabia", "Arab countries").replace ("Egypt", 
 "Arab countries").replace ("Iraq", "Arab countries").replace ("Lebanon", "Arab countries").replace ("Libya", 
 "Arab countries").replace ("Kuwait", "Arab countries").replace ("United Arab Emirates", "Arab countries")
